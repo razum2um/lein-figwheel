@@ -112,7 +112,7 @@
                 injection/build-hook
                 figwheel-start-and-end-messages)
             cljs-build-fn) this)
-          
+
           (assoc this
                  :file-watcher
                  (watching/watch! (source-paths-that-affect-build build-config)
