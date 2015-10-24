@@ -1,6 +1,6 @@
 (ns figwheel-sidecar.components.css-watcher
   (:require
-   [figwheel-sidecar.components.figwheel-server :as fig]
+   [figwheel-sidecar.channel-server :as fig]
    [figwheel-sidecar.watching :as watching]
    [figwheel-sidecar.utils :as utils]
    [com.stuartsierra.component :as component]
